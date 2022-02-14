@@ -121,7 +121,6 @@ const LearnPanel = ({
               className={styles.iconButton}
               onClick={() => {
                 setIsOpen(false);
-                setCurrentSlide(0);
               }}
             >
               <X />
